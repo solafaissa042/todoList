@@ -1,0 +1,48 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:#283593;
+}
+
+
+.iconButton{
+  transition: all 0.2s !important;
+}
+.iconButton:hover{
+  background-color: #c5c5c5 !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0,0.4);
+}
+
+
+.todo{
+  transition: all 0.2s !important;
+}
+.todo:hover{
+  box-shadow: 0px 7px 7px rgba(0, 0, 0,0.4);
+  cursor: pointer;
+}
+
+
+/* custum fonts */
+@font-face{
+  font-family: AncizarSans;
+  src:url('/public/fonts/AncizarSans-Bold.ttf');
+  font-weight: 900;
+}
+
+@font-face{
+  font-family: AncizarSans;
+  src:url('/public/fonts/AncizarSans-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face{
+  font-family: AncizarSans;
+  src:url('/public/fonts/AncizarSans-Medium.ttf');
+  font-weight: 400;
+}
+  
